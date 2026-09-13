@@ -87,8 +87,7 @@ export default function Footer() {
         {/* Footer bottom */}
         <div className="border-t border-brand py-5 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm flex items-center gap-2">
-            Copyright @ Process Control Valves 2019. Designed By
-            <img src="/img/vjm.png" alt="VJM" className="w-[80px] inline" />
+              Copyright @ Process Control Valves {new Date().getFullYear()}
           </div>
           <div className="flex divide-x divide-white border-x border-white">
             <a href="#" className="px-4 py-1 hover:text-brand transition"><FaFacebookF /></a>
