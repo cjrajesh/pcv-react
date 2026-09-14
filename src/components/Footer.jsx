@@ -45,7 +45,7 @@ export default function Footer() {
                   <li key={to}>
                     <Link
                       to={to}
-                      className="relative pl-4 text-sm hover:text-brand transition before:content-['\203A'] before:absolute before:left-0 before:text-white"
+                    className="relative pl-4 text-sm hover:text-brand-light transition before:content-['\203A'] before:absolute before:left-0 before:text-white"
                     >
                       {label}
                     </Link>
@@ -85,7 +85,7 @@ export default function Footer() {
         </div>
 
         {/* Footer bottom */}
-        <div className="border-t border-brand py-5 flex flex-col md:flex-row justify-between items-center gap-4">
+        <div className="border-t border-brand/30 py-5 flex flex-col md:flex-row justify-between items-center gap-4">
           <div className="text-sm flex items-center gap-2">
               Copyright @ Process Control Valves {new Date().getFullYear()}
           </div>

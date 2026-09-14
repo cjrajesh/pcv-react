@@ -17,17 +17,17 @@ export default function Header() {
   return (
     <>
       {/* Top bar */}
-      <div className="bg-brand-light text-white text-[13px] py-[7px] border-b border-brand font-roboto">
+      <div className="bg-brand-dark text-white text-[13px] py-[7px] border-b border-brand font-roboto">
         <div className="container mx-auto max-w-[1170px] px-4 flex flex-wrap justify-between items-center">
           <ul className="flex gap-6">
             <li className="flex items-center gap-2">
               <FaPhone className="text-white" />
-              <a href="tel:+914424780698" className="hover:text-brand transition">Call: +91-44–24780698.</a>
+              <a href="tel:+918428022453" className="hover:text-brand-light transition">Call: +91-8428022453</a>
             </li>
             <li className="flex items-center gap-2">
               <FaEnvelope className="text-white" />
-              <a href="mailto:pcv_valves@yahoo.co.in" className="hover:text-brand transition">
-                Email: pcv_valves@yahoo.co.in
+              <a href="mailto:info@processcontrolvalves.com" className="hover:text-brand-light transition">
+                Email: info@processcontrolvalves.com
               </a>
             </li>
           </ul>
@@ -42,10 +42,14 @@ export default function Header() {
       {/* Main menu */}
       <section className="bg-white shadow-[0_2px_5px_0_rgba(0,0,0,0.16),0_2px_10px_0_rgba(0,0,0,0.12)]">
         <div className="container mx-auto max-w-[1170px] px-4">
-          <div className="flex items-center justify-between py-2">
-            <Link to="/" className="shrink-0">
-              <img src="/img/logo.png" alt="PCV Valves" className="max-w-[180px]" />
-            </Link>
+         <div className="flex items-center justify-between py-3 md:py-4">
+<Link to="/" className="shrink-0 flex items-center">
+  <img
+    src="/img/logo.png"
+    alt="PCV Valves"
+    className="h-12 md:h-14 lg:h-16 w-auto transition-transform duration-300 hover:scale-105"
+  />
+</Link>
 
             <button
               className="md:hidden text-2xl text-brand"

@@ -33,11 +33,11 @@ export const contactInfo = [
     title: "Phone Number",
     content: (
       <>
-        +91-44–24780698
+        +91 8428022453
         <br />
-        09444117873
+        +91 9444117873
         <br />
-        09444022452
+        +91 9444022452
       </>
     ),
   },
@@ -46,7 +46,7 @@ export const contactInfo = [
     title: "E-Mail & Web",
     content: (
       <>
-        pcv_valves@yahoo.co.in
+        info@processcontrolvalves.com
         <br />
         www.processcontrolvalve.com
       </>
